@@ -11,5 +11,8 @@ gem "minitest", "~> 5.16"
 
 gem "standard"
 
+gem "sorbet-static-and-runtime", platforms: :ruby
+gem "tapioca", require: false, platforms: :ruby
+
 gem "debug"
 gem "irb"
